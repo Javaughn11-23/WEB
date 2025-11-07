@@ -24,7 +24,7 @@ body {
   display: none;
 }
 
-#logo {
+logo {
   display: inline-block;
   transform-origin: center center;
   animation: spin 5s linear infinite;
@@ -38,7 +38,7 @@ keyframes spin {
 
 /* Safari and older browsers */
 media screen and (-webkit-min-device-pixel-ratio:0) {
-  #logo {
+  logo {
     -webkit-animation: spin 5s linear infinite;
   }
   keyframes spin {
